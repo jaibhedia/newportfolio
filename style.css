@@ -452,3 +452,10 @@ body {
   background-color: #222;    /* Dark background */
   color: #f0f0f0;            /* Dark text */
 }
+
+/* Make sure these target the button when the menu is open */
+.dark-mode .menu-links .btn-3 { 
+  background-color: #333; /* Dark background */
+  color: #f0f0f0;        /* Light text */
+  border-color: #555;    /* Dark border */ 
+}
